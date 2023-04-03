@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body {
+    background-color: slateblue;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+section {
+    background-color: skyblue;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    padding: 2px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+}
+
+#txtn {
+    padding: 2px;
+    width: 80px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+option {
+    font-size: 80%;
+}
+
+#selTab {
+    margin-bottom: 20px;
+    padding: 8px;
+    box-shadow: 2px 2px 2px black;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+}
+
+@media(max-width: 530px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        width: 420px;
+    }
+}
+
+@media(max-width: 450px) {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    section {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    button {
+        padding: 2px;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    #txtn {
+        padding: 2px;
+        width: 80px;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    #selTab {
+        margin-bottom: 20px;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 390px) {
+    h1 {
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    section {
+        width: 330px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 2px;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    #txtn {
+        padding: 2px;
+        width: 80px;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    #selTab {
+        margin-bottom: 20px;
+        padding: 8px;
+        box-shadow: 2px 2px 2px black;
+        width: auto;
+        height: auto;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 350px) {
+    section {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    #selTab {
+        margin-bottom: 20px;
+        padding: 8px;
+        box-shadow: 2px 2px 2px black;
+        width: auto;
+        height: auto;
+        font-size: 15px;
+    }
+}
